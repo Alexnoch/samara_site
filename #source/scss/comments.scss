@@ -1,0 +1,58 @@
+.comments{
+    font-family: 'acrobat';
+    font-size: 49px;
+    color: #324862;
+    padding-bottom: 70px;
+    padding-top:70px;
+
+    @media(max-width: 1140px){
+        padding-top: 40px;
+        padding-bottom: 50px;
+        font-size: 30px;
+    }
+
+    @media(max-width:767px){
+        font-size: 23px;
+    }
+}
+
+.comments__align{
+    display:flex;
+    justify-content: space-between;
+
+    @media(max-width: 767px){
+        flex-wrap: wrap;
+    }
+}
+
+.comments__container{
+    text-align: center;
+    width:calc(50% - 10px);
+
+    @media(max-width: 767px){
+        width:100%;
+        margin-bottom: 50px;
+    }
+
+    >img{
+        max-width: 100%;
+        margin-bottom: 50px;
+
+        @media(max-width:1140px){
+            margin-bottom: 30px;
+        }
+
+        @media(max-width: 767px){
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+.align-names{
+    margin-bottom:40px;
+
+    @media(max-width:1140px){
+        margin-bottom: 15px;
+    }
+}

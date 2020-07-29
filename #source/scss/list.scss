@@ -1,0 +1,117 @@
+.list{
+    color:#324862;
+    position: relative;
+    margin-bottom:50px;
+
+    @media(max-width: 1140px){        
+        margin-bottom: 15px;
+    }    
+
+    >h4{
+        text-align: center;
+        font-family: 'bebas';
+        font-size: 80px;
+        margin-bottom:50px;
+
+        @media(max-width: 1140px){
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        @media(max-width:767px){
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+    }
+}
+
+.list__info{
+    margin-bottom:80px;
+    text-align: center;
+
+    @media(max-width: 1140px){
+        margin-bottom: 30px;       
+    }
+
+    p{
+    font-family: 'acrobat';
+    font-size: 40px;
+
+    @media(max-width: 1140px){
+        font-size: 23px;     
+    }
+
+    }
+
+    :first-child{
+        margin-bottom:35px;
+
+        @media(max-width: 1140px){
+            margin-bottom: 20px;   
+        }
+    }
+}
+
+.list__step1-container{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom:60px;
+
+    @media(max-width: 1140px){
+          margin-bottom: 35px;  
+    }
+
+    @media(max-width:767px){
+        margin-bottom: 15px;     
+    }
+
+    
+
+    :first-child{
+        font-family: 'bebas';
+        font-size: 40px;
+        border:2px solid #324862;
+        border-radius: 50%;
+        padding:20px 30px;
+        background-color: #FFFBF5;
+        margin-right:10px;
+
+        @media(max-width: 1140px){
+            font-size: 30px;
+            padding:10px 20px
+        }
+
+        @media(max-width:767px){
+            display:none;
+        }
+    }
+    :last-child{
+        font-family: 'acrobat';
+        font-size: 40px;
+
+        @media(max-width: 1140px){
+            font-size: 23px;
+        }
+    }
+}
+
+.line{
+    display: block;
+    position: absolute;
+    border-left:3px dashed #324862;
+    height:1250px;
+    top:25%;
+    left:3.5%;
+    z-index: -1;
+
+    @media(max-width: 1140px){
+            left:5.3%;
+            height:73%;
+            top:23%;
+    }
+
+    @media(max-width:767px){
+        display:none;     
+    }
+}

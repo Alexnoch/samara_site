@@ -1,0 +1,55 @@
+.video-content__wrapper{
+    max-width:945px;
+    margin:0 auto;
+    margin-bottom:95px;
+
+    :last-child{
+        margin-bottom:0;
+    }
+
+    @media(max-width:1140px){
+        margin-bottom: 45px;
+    }
+
+    @media(max-width:767px){
+        margin-bottom: 40px;     
+    }
+}
+
+.video-content__container{
+    text-align: center;
+    margin-bottom:85px;
+
+    @media(max-width:767px){
+        margin-bottom: 15px;     
+    }
+
+    >h4{
+        text-align: center;
+        font-family: 'bebas';
+        font-size: 80px;
+        color: #324862;
+        margin-bottom:25px;
+
+        @media(max-width:1140px){
+            font-size: 60px;
+            margin-bottom:25px;
+        }
+
+        @media(max-width:767px){
+            font-size: 30px;
+            margin-bottom: 10px;
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+
+    video{
+        max-width: 100%;
+    }
+}
+
+.movie-sity{
+    border-radius: 30px;
+    max-width: 850px;
+}
